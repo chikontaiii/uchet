@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Учёт имущества колледжа</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="login" class="login-page" hidden>
+    <div class="login-art"><img src="/img/hero.svg" alt="Здание колледжа"></div>
+    <form id="loginForm">
+      <h1>Учёт имущества колледжа</h1>
+      <p class="hint">Войдите, чтобы работать с кабинетами и оборудованием</p>
+      <label>Логин <input name="login" autocomplete="username" required></label>
+      <label>Пароль <input name="password" type="password" autocomplete="current-password" required></label>
+      <p class="error" id="loginError"></p>
+      <button class="primary">Войти</button>
+      <p class="hint">Тест: Асема / Асема321</p>
+    </form>
+  </div>
+
+  <div id="app" class="app" hidden>
+    <aside>
+      <div class="brand"><img src="/img/cat-1.svg" alt="">Учёт имущества<small>колледж</small></div>
+      <nav id="nav"></nav>
+      <div class="who" id="who"></div>
+    </aside>
+    <main id="main"></main>
+  </div>
+  <div id="toast"></div>
+  <script src="/js/app.js"></script>
+</body>
+</html>

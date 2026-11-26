@@ -1,0 +1,1391 @@
+{
+ "users": [
+  {
+   "id": 1,
+   "name": "Асема",
+   "login": "Асема",
+   "password": "Асема321",
+   "role": "admin",
+   "roomId": null
+  },
+  {
+   "id": 2,
+   "name": "Петров П.П.",
+   "login": "tech",
+   "password": "1234",
+   "role": "technician",
+   "roomId": null
+  }
+ ],
+ "teachers": [
+  {
+   "id": 1,
+   "name": "Бекова А.Т.",
+   "subject": "Информатика",
+   "phone": "+996 700 100 100"
+  },
+  {
+   "id": 2,
+   "name": "Исаков Н.К.",
+   "subject": "Программирование",
+   "phone": "+996 700 107 111"
+  },
+  {
+   "id": 3,
+   "name": "Токтогулова Ж.М.",
+   "subject": "Английский язык",
+   "phone": "+996 700 114 122"
+  },
+  {
+   "id": 4,
+   "name": "Мамбетов Э.Р.",
+   "subject": "Математика",
+   "phone": "+996 700 121 133"
+  },
+  {
+   "id": 5,
+   "name": "Осмонова Г.С.",
+   "subject": "Физика",
+   "phone": "+996 700 128 144"
+  },
+  {
+   "id": 6,
+   "name": "Касымов Т.Б.",
+   "subject": "Химия",
+   "phone": "+996 700 135 155"
+  },
+  {
+   "id": 7,
+   "name": "Сатыбалдиева Н.А.",
+   "subject": "Физкультура",
+   "phone": "+996 700 142 166"
+  },
+  {
+   "id": 8,
+   "name": "Дюшеев Б.К.",
+   "subject": "Технология",
+   "phone": "+996 700 149 177"
+  },
+  {
+   "id": 9,
+   "name": "Абдрахманова Л.Ж.",
+   "subject": "Литература",
+   "phone": "+996 700 156 188"
+  },
+  {
+   "id": 10,
+   "name": "Жунусов А.Э.",
+   "subject": "Экономика",
+   "phone": "+996 700 163 199"
+  }
+ ],
+ "categories": [
+  {
+   "id": 1,
+   "name": "Компьютерная техника"
+  },
+  {
+   "id": 2,
+   "name": "Мультимедиа"
+  },
+  {
+   "id": 3,
+   "name": "Мебель"
+  },
+  {
+   "id": 4,
+   "name": "Лабораторное оборудование"
+  },
+  {
+   "id": 5,
+   "name": "Спортивный инвентарь"
+  },
+  {
+   "id": 6,
+   "name": "Инструменты и хозтовары"
+  }
+ ],
+ "rooms": [
+  {
+   "id": 1,
+   "number": "101",
+   "name": "Компьютерный класс",
+   "building": "Корпус А",
+   "floor": 1,
+   "teacherId": 1
+  },
+  {
+   "id": 2,
+   "number": "102",
+   "name": "Класс программирования",
+   "building": "Корпус А",
+   "floor": 1,
+   "teacherId": 2
+  },
+  {
+   "id": 3,
+   "number": "201",
+   "name": "Лекционная аудитория",
+   "building": "Корпус А",
+   "floor": 2,
+   "teacherId": 3
+  },
+  {
+   "id": 4,
+   "number": "202",
+   "name": "Кабинет математики",
+   "building": "Корпус А",
+   "floor": 2,
+   "teacherId": 4
+  },
+  {
+   "id": 5,
+   "number": "203",
+   "name": "Кабинет английского языка",
+   "building": "Корпус А",
+   "floor": 2,
+   "teacherId": 3
+  },
+  {
+   "id": 6,
+   "number": "Л-1",
+   "name": "Лаборатория физики",
+   "building": "Корпус Б",
+   "floor": 1,
+   "teacherId": 5
+  },
+  {
+   "id": 7,
+   "number": "Л-2",
+   "name": "Лаборатория химии",
+   "building": "Корпус Б",
+   "floor": 1,
+   "teacherId": 6
+  },
+  {
+   "id": 8,
+   "number": "Спортзал",
+   "name": "Спортивный зал",
+   "building": "Корпус Б",
+   "floor": 1,
+   "teacherId": 7
+  },
+  {
+   "id": 9,
+   "number": "М-1",
+   "name": "Мастерская",
+   "building": "Корпус Б",
+   "floor": 2,
+   "teacherId": 8
+  },
+  {
+   "id": 10,
+   "number": "Библиотека",
+   "name": "Библиотека",
+   "building": "Корпус А",
+   "floor": 1,
+   "teacherId": 9
+  },
+  {
+   "id": 11,
+   "number": "Актовый зал",
+   "name": "Актовый зал",
+   "building": "Корпус А",
+   "floor": 3,
+   "teacherId": 10
+  },
+  {
+   "id": 12,
+   "number": "Склад",
+   "name": "Основной склад",
+   "building": "Корпус Б",
+   "floor": 0,
+   "teacherId": null
+  }
+ ],
+ "assets": [
+  {
+   "id": 1,
+   "inventoryNo": "INV-0001",
+   "name": "Стол студенческий",
+   "categoryId": 3,
+   "roomId": 1,
+   "cost": 2600,
+   "status": "неисправно"
+  },
+  {
+   "id": 2,
+   "inventoryNo": "INV-0002",
+   "name": "Ноутбук Lenovo ThinkPad",
+   "categoryId": 1,
+   "roomId": 1,
+   "cost": 22400,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 3,
+   "inventoryNo": "INV-0003",
+   "name": "Компьютер Dell OptiPlex",
+   "categoryId": 1,
+   "roomId": 1,
+   "cost": 56100,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 4,
+   "inventoryNo": "INV-0004",
+   "name": "Стул ученический",
+   "categoryId": 3,
+   "roomId": 1,
+   "cost": 11800,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 5,
+   "inventoryNo": "INV-0005",
+   "name": "Ноутбук Lenovo ThinkPad",
+   "categoryId": 1,
+   "roomId": 1,
+   "cost": 23000,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 6,
+   "inventoryNo": "INV-0006",
+   "name": "Компьютер Dell OptiPlex",
+   "categoryId": 1,
+   "roomId": 1,
+   "cost": 57400,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 7,
+   "inventoryNo": "INV-0007",
+   "name": "Проектор Epson",
+   "categoryId": 2,
+   "roomId": 2,
+   "cost": 84200,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 8,
+   "inventoryNo": "INV-0008",
+   "name": "Стол студенческий",
+   "categoryId": 3,
+   "roomId": 2,
+   "cost": 10700,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 9,
+   "inventoryNo": "INV-0009",
+   "name": "Монитор Samsung 24",
+   "categoryId": 1,
+   "roomId": 2,
+   "cost": 40500,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 10,
+   "inventoryNo": "INV-0010",
+   "name": "Телевизор LG 55",
+   "categoryId": 2,
+   "roomId": 2,
+   "cost": 40500,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 11,
+   "inventoryNo": "INV-0011",
+   "name": "Принтер HP LaserJet",
+   "categoryId": 1,
+   "roomId": 2,
+   "cost": 54400,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 12,
+   "inventoryNo": "INV-0012",
+   "name": "Телевизор LG 55",
+   "categoryId": 2,
+   "roomId": 2,
+   "cost": 87800,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 13,
+   "inventoryNo": "INV-0013",
+   "name": "Телевизор LG 55",
+   "categoryId": 2,
+   "roomId": 3,
+   "cost": 27900,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 14,
+   "inventoryNo": "INV-0014",
+   "name": "Шкаф книжный",
+   "categoryId": 3,
+   "roomId": 3,
+   "cost": 7000,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 15,
+   "inventoryNo": "INV-0015",
+   "name": "Доска маркерная",
+   "categoryId": 3,
+   "roomId": 3,
+   "cost": 2600,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 16,
+   "inventoryNo": "INV-0016",
+   "name": "Проектор Epson",
+   "categoryId": 2,
+   "roomId": 3,
+   "cost": 15900,
+   "status": "неисправно"
+  },
+  {
+   "id": 17,
+   "inventoryNo": "INV-0017",
+   "name": "Доска маркерная",
+   "categoryId": 3,
+   "roomId": 3,
+   "cost": 6100,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 18,
+   "inventoryNo": "INV-0018",
+   "name": "Доска маркерная",
+   "categoryId": 3,
+   "roomId": 3,
+   "cost": 7300,
+   "status": "на ремонте"
+  },
+  {
+   "id": 19,
+   "inventoryNo": "INV-0019",
+   "name": "Стул ученический",
+   "categoryId": 3,
+   "roomId": 4,
+   "cost": 6200,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 20,
+   "inventoryNo": "INV-0020",
+   "name": "Доска маркерная",
+   "categoryId": 3,
+   "roomId": 4,
+   "cost": 2800,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 21,
+   "inventoryNo": "INV-0021",
+   "name": "Стул ученический",
+   "categoryId": 3,
+   "roomId": 4,
+   "cost": 8500,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 22,
+   "inventoryNo": "INV-0022",
+   "name": "Колонки Logitech",
+   "categoryId": 2,
+   "roomId": 4,
+   "cost": 38200,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 23,
+   "inventoryNo": "INV-0023",
+   "name": "Стул ученический",
+   "categoryId": 3,
+   "roomId": 4,
+   "cost": 1600,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 24,
+   "inventoryNo": "INV-0024",
+   "name": "Телевизор LG 55",
+   "categoryId": 2,
+   "roomId": 4,
+   "cost": 8500,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 25,
+   "inventoryNo": "INV-0025",
+   "name": "Телевизор LG 55",
+   "categoryId": 2,
+   "roomId": 5,
+   "cost": 24400,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 26,
+   "inventoryNo": "INV-0026",
+   "name": "Компьютер Dell OptiPlex",
+   "categoryId": 1,
+   "roomId": 5,
+   "cost": 49900,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 27,
+   "inventoryNo": "INV-0027",
+   "name": "Монитор Samsung 24",
+   "categoryId": 1,
+   "roomId": 5,
+   "cost": 45800,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 28,
+   "inventoryNo": "INV-0028",
+   "name": "Интерактивная доска",
+   "categoryId": 2,
+   "roomId": 5,
+   "cost": 16800,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 29,
+   "inventoryNo": "INV-0029",
+   "name": "Проектор Epson",
+   "categoryId": 2,
+   "roomId": 5,
+   "cost": 21400,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 30,
+   "inventoryNo": "INV-0030",
+   "name": "Телевизор LG 55",
+   "categoryId": 2,
+   "roomId": 5,
+   "cost": 88400,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 31,
+   "inventoryNo": "INV-0031",
+   "name": "Электронные весы",
+   "categoryId": 4,
+   "roomId": 6,
+   "cost": 14700,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 32,
+   "inventoryNo": "INV-0032",
+   "name": "Доска маркерная",
+   "categoryId": 3,
+   "roomId": 6,
+   "cost": 3500,
+   "status": "неисправно"
+  },
+  {
+   "id": 33,
+   "inventoryNo": "INV-0033",
+   "name": "Электронные весы",
+   "categoryId": 4,
+   "roomId": 6,
+   "cost": 25400,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 34,
+   "inventoryNo": "INV-0034",
+   "name": "Осциллограф",
+   "categoryId": 4,
+   "roomId": 6,
+   "cost": 36300,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 35,
+   "inventoryNo": "INV-0035",
+   "name": "Осциллограф",
+   "categoryId": 4,
+   "roomId": 6,
+   "cost": 14600,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 36,
+   "inventoryNo": "INV-0036",
+   "name": "Микроскоп Биолам",
+   "categoryId": 4,
+   "roomId": 6,
+   "cost": 50600,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 37,
+   "inventoryNo": "INV-0037",
+   "name": "Стул ученический",
+   "categoryId": 3,
+   "roomId": 7,
+   "cost": 10200,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 38,
+   "inventoryNo": "INV-0038",
+   "name": "Стул ученический",
+   "categoryId": 3,
+   "roomId": 7,
+   "cost": 5400,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 39,
+   "inventoryNo": "INV-0039",
+   "name": "Доска маркерная",
+   "categoryId": 3,
+   "roomId": 7,
+   "cost": 7300,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 40,
+   "inventoryNo": "INV-0040",
+   "name": "Осциллограф",
+   "categoryId": 4,
+   "roomId": 7,
+   "cost": 17600,
+   "status": "неисправно"
+  },
+  {
+   "id": 41,
+   "inventoryNo": "INV-0041",
+   "name": "Шкаф книжный",
+   "categoryId": 3,
+   "roomId": 7,
+   "cost": 2800,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 42,
+   "inventoryNo": "INV-0042",
+   "name": "Осциллограф",
+   "categoryId": 4,
+   "roomId": 7,
+   "cost": 18300,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 43,
+   "inventoryNo": "INV-0043",
+   "name": "Баскетбольный мяч",
+   "categoryId": 5,
+   "roomId": 8,
+   "cost": 8600,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 44,
+   "inventoryNo": "INV-0044",
+   "name": "Баскетбольный мяч",
+   "categoryId": 5,
+   "roomId": 8,
+   "cost": 7100,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 45,
+   "inventoryNo": "INV-0045",
+   "name": "Теннисный стол",
+   "categoryId": 5,
+   "roomId": 8,
+   "cost": 2200,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 46,
+   "inventoryNo": "INV-0046",
+   "name": "Гимнастический мат",
+   "categoryId": 5,
+   "roomId": 8,
+   "cost": 3500,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 47,
+   "inventoryNo": "INV-0047",
+   "name": "Гимнастический мат",
+   "categoryId": 5,
+   "roomId": 8,
+   "cost": 10800,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 48,
+   "inventoryNo": "INV-0048",
+   "name": "Гимнастический мат",
+   "categoryId": 5,
+   "roomId": 8,
+   "cost": 1100,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 49,
+   "inventoryNo": "INV-0049",
+   "name": "Дрель Bosch",
+   "categoryId": 6,
+   "roomId": 9,
+   "cost": 6300,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 50,
+   "inventoryNo": "INV-0050",
+   "name": "Набор инструментов",
+   "categoryId": 6,
+   "roomId": 9,
+   "cost": 2200,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 51,
+   "inventoryNo": "INV-0051",
+   "name": "Шкаф книжный",
+   "categoryId": 3,
+   "roomId": 9,
+   "cost": 5700,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 52,
+   "inventoryNo": "INV-0052",
+   "name": "Шкаф книжный",
+   "categoryId": 3,
+   "roomId": 9,
+   "cost": 9000,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 53,
+   "inventoryNo": "INV-0053",
+   "name": "Стул ученический",
+   "categoryId": 3,
+   "roomId": 9,
+   "cost": 10000,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 54,
+   "inventoryNo": "INV-0054",
+   "name": "Дрель Bosch",
+   "categoryId": 6,
+   "roomId": 9,
+   "cost": 8300,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 55,
+   "inventoryNo": "INV-0055",
+   "name": "Стол студенческий",
+   "categoryId": 3,
+   "roomId": 10,
+   "cost": 10600,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 56,
+   "inventoryNo": "INV-0056",
+   "name": "Доска маркерная",
+   "categoryId": 3,
+   "roomId": 10,
+   "cost": 3200,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 57,
+   "inventoryNo": "INV-0057",
+   "name": "Стол студенческий",
+   "categoryId": 3,
+   "roomId": 10,
+   "cost": 9800,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 58,
+   "inventoryNo": "INV-0058",
+   "name": "Принтер HP LaserJet",
+   "categoryId": 1,
+   "roomId": 10,
+   "cost": 60100,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 59,
+   "inventoryNo": "INV-0059",
+   "name": "Доска маркерная",
+   "categoryId": 3,
+   "roomId": 10,
+   "cost": 9800,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 60,
+   "inventoryNo": "INV-0060",
+   "name": "Стул ученический",
+   "categoryId": 3,
+   "roomId": 10,
+   "cost": 8800,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 61,
+   "inventoryNo": "INV-0061",
+   "name": "Телевизор LG 55",
+   "categoryId": 2,
+   "roomId": 11,
+   "cost": 17500,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 62,
+   "inventoryNo": "INV-0062",
+   "name": "Телевизор LG 55",
+   "categoryId": 2,
+   "roomId": 11,
+   "cost": 24000,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 63,
+   "inventoryNo": "INV-0063",
+   "name": "Телевизор LG 55",
+   "categoryId": 2,
+   "roomId": 11,
+   "cost": 26700,
+   "status": "на ремонте"
+  },
+  {
+   "id": 64,
+   "inventoryNo": "INV-0064",
+   "name": "Стол студенческий",
+   "categoryId": 3,
+   "roomId": 11,
+   "cost": 8000,
+   "status": "на ремонте"
+  },
+  {
+   "id": 65,
+   "inventoryNo": "INV-0065",
+   "name": "Стул ученический",
+   "categoryId": 3,
+   "roomId": 11,
+   "cost": 4100,
+   "status": "в эксплуатации"
+  },
+  {
+   "id": 66,
+   "inventoryNo": "INV-0066",
+   "name": "Доска маркерная",
+   "categoryId": 3,
+   "roomId": 11,
+   "cost": 4700,
+   "status": "неисправно"
+  },
+  {
+   "id": 67,
+   "inventoryNo": "INV-0067",
+   "name": "Теннисный стол",
+   "categoryId": 5,
+   "roomId": 12,
+   "cost": 1100,
+   "status": "на складе"
+  },
+  {
+   "id": 68,
+   "inventoryNo": "INV-0068",
+   "name": "Турник",
+   "categoryId": 5,
+   "roomId": 12,
+   "cost": 12300,
+   "status": "на складе"
+  },
+  {
+   "id": 69,
+   "inventoryNo": "INV-0069",
+   "name": "Шкаф книжный",
+   "categoryId": 3,
+   "roomId": 12,
+   "cost": 9800,
+   "status": "на складе"
+  },
+  {
+   "id": 70,
+   "inventoryNo": "INV-0070",
+   "name": "Стул ученический",
+   "categoryId": 3,
+   "roomId": 12,
+   "cost": 3200,
+   "status": "на складе"
+  },
+  {
+   "id": 71,
+   "inventoryNo": "INV-0071",
+   "name": "Стол студенческий",
+   "categoryId": 3,
+   "roomId": 12,
+   "cost": 4400,
+   "status": "на складе"
+  },
+  {
+   "id": 72,
+   "inventoryNo": "INV-0072",
+   "name": "Турник",
+   "categoryId": 5,
+   "roomId": 12,
+   "cost": 14700,
+   "status": "на складе"
+  }
+ ],
+ "assignments": [
+  {
+   "id": 1,
+   "assetId": 1,
+   "roomId": 1,
+   "date": "2025-07-21",
+   "reason": "Поступление"
+  },
+  {
+   "id": 2,
+   "assetId": 2,
+   "roomId": 1,
+   "date": "2025-01-17",
+   "reason": "Поступление"
+  },
+  {
+   "id": 3,
+   "assetId": 3,
+   "roomId": 1,
+   "date": "2025-02-08",
+   "reason": "Поступление"
+  },
+  {
+   "id": 4,
+   "assetId": 4,
+   "roomId": 1,
+   "date": "2025-10-04",
+   "reason": "Поступление"
+  },
+  {
+   "id": 5,
+   "assetId": 5,
+   "roomId": 1,
+   "date": "2025-07-02",
+   "reason": "Поступление"
+  },
+  {
+   "id": 6,
+   "assetId": 6,
+   "roomId": 1,
+   "date": "2025-03-18",
+   "reason": "Поступление"
+  },
+  {
+   "id": 7,
+   "assetId": 7,
+   "roomId": 2,
+   "date": "2025-11-06",
+   "reason": "Поступление"
+  },
+  {
+   "id": 8,
+   "assetId": 8,
+   "roomId": 2,
+   "date": "2025-06-04",
+   "reason": "Поступление"
+  },
+  {
+   "id": 9,
+   "assetId": 9,
+   "roomId": 2,
+   "date": "2025-08-22",
+   "reason": "Поступление"
+  },
+  {
+   "id": 10,
+   "assetId": 10,
+   "roomId": 2,
+   "date": "2025-08-12",
+   "reason": "Поступление"
+  },
+  {
+   "id": 11,
+   "assetId": 11,
+   "roomId": 2,
+   "date": "2025-04-03",
+   "reason": "Поступление"
+  },
+  {
+   "id": 12,
+   "assetId": 12,
+   "roomId": 2,
+   "date": "2025-12-15",
+   "reason": "Поступление"
+  },
+  {
+   "id": 13,
+   "assetId": 13,
+   "roomId": 3,
+   "date": "2025-07-06",
+   "reason": "Поступление"
+  },
+  {
+   "id": 14,
+   "assetId": 14,
+   "roomId": 3,
+   "date": "2025-11-03",
+   "reason": "Поступление"
+  },
+  {
+   "id": 15,
+   "assetId": 15,
+   "roomId": 3,
+   "date": "2025-10-26",
+   "reason": "Поступление"
+  },
+  {
+   "id": 16,
+   "assetId": 16,
+   "roomId": 3,
+   "date": "2025-08-23",
+   "reason": "Поступление"
+  },
+  {
+   "id": 17,
+   "assetId": 17,
+   "roomId": 3,
+   "date": "2025-11-27",
+   "reason": "Поступление"
+  },
+  {
+   "id": 18,
+   "assetId": 18,
+   "roomId": 3,
+   "date": "2025-06-01",
+   "reason": "Поступление"
+  },
+  {
+   "id": 19,
+   "assetId": 19,
+   "roomId": 4,
+   "date": "2025-08-02",
+   "reason": "Поступление"
+  },
+  {
+   "id": 20,
+   "assetId": 20,
+   "roomId": 4,
+   "date": "2025-07-13",
+   "reason": "Поступление"
+  },
+  {
+   "id": 21,
+   "assetId": 21,
+   "roomId": 4,
+   "date": "2025-09-09",
+   "reason": "Поступление"
+  },
+  {
+   "id": 22,
+   "assetId": 22,
+   "roomId": 4,
+   "date": "2025-06-22",
+   "reason": "Поступление"
+  },
+  {
+   "id": 23,
+   "assetId": 23,
+   "roomId": 4,
+   "date": "2025-03-08",
+   "reason": "Поступление"
+  },
+  {
+   "id": 24,
+   "assetId": 24,
+   "roomId": 4,
+   "date": "2025-03-09",
+   "reason": "Поступление"
+  },
+  {
+   "id": 25,
+   "assetId": 25,
+   "roomId": 5,
+   "date": "2025-06-20",
+   "reason": "Поступление"
+  },
+  {
+   "id": 26,
+   "assetId": 26,
+   "roomId": 5,
+   "date": "2025-10-21",
+   "reason": "Поступление"
+  },
+  {
+   "id": 27,
+   "assetId": 27,
+   "roomId": 5,
+   "date": "2025-07-13",
+   "reason": "Поступление"
+  },
+  {
+   "id": 28,
+   "assetId": 28,
+   "roomId": 5,
+   "date": "2025-07-02",
+   "reason": "Поступление"
+  },
+  {
+   "id": 29,
+   "assetId": 29,
+   "roomId": 5,
+   "date": "2025-02-11",
+   "reason": "Поступление"
+  },
+  {
+   "id": 30,
+   "assetId": 30,
+   "roomId": 5,
+   "date": "2025-09-04",
+   "reason": "Поступление"
+  },
+  {
+   "id": 31,
+   "assetId": 31,
+   "roomId": 6,
+   "date": "2025-04-20",
+   "reason": "Поступление"
+  },
+  {
+   "id": 32,
+   "assetId": 32,
+   "roomId": 6,
+   "date": "2025-10-12",
+   "reason": "Поступление"
+  },
+  {
+   "id": 33,
+   "assetId": 33,
+   "roomId": 6,
+   "date": "2025-08-16",
+   "reason": "Поступление"
+  },
+  {
+   "id": 34,
+   "assetId": 34,
+   "roomId": 6,
+   "date": "2025-12-11",
+   "reason": "Поступление"
+  },
+  {
+   "id": 35,
+   "assetId": 35,
+   "roomId": 6,
+   "date": "2025-04-17",
+   "reason": "Поступление"
+  },
+  {
+   "id": 36,
+   "assetId": 36,
+   "roomId": 6,
+   "date": "2025-05-21",
+   "reason": "Поступление"
+  },
+  {
+   "id": 37,
+   "assetId": 37,
+   "roomId": 7,
+   "date": "2025-03-12",
+   "reason": "Поступление"
+  },
+  {
+   "id": 38,
+   "assetId": 38,
+   "roomId": 7,
+   "date": "2025-10-26",
+   "reason": "Поступление"
+  },
+  {
+   "id": 39,
+   "assetId": 39,
+   "roomId": 7,
+   "date": "2025-04-07",
+   "reason": "Поступление"
+  },
+  {
+   "id": 40,
+   "assetId": 40,
+   "roomId": 7,
+   "date": "2025-05-16",
+   "reason": "Поступление"
+  },
+  {
+   "id": 41,
+   "assetId": 41,
+   "roomId": 7,
+   "date": "2025-12-12",
+   "reason": "Поступление"
+  },
+  {
+   "id": 42,
+   "assetId": 42,
+   "roomId": 7,
+   "date": "2025-08-07",
+   "reason": "Поступление"
+  },
+  {
+   "id": 43,
+   "assetId": 43,
+   "roomId": 8,
+   "date": "2025-10-27",
+   "reason": "Поступление"
+  },
+  {
+   "id": 44,
+   "assetId": 44,
+   "roomId": 8,
+   "date": "2025-02-27",
+   "reason": "Поступление"
+  },
+  {
+   "id": 45,
+   "assetId": 45,
+   "roomId": 8,
+   "date": "2025-03-14",
+   "reason": "Поступление"
+  },
+  {
+   "id": 46,
+   "assetId": 46,
+   "roomId": 8,
+   "date": "2025-12-03",
+   "reason": "Поступление"
+  },
+  {
+   "id": 47,
+   "assetId": 47,
+   "roomId": 8,
+   "date": "2025-10-15",
+   "reason": "Поступление"
+  },
+  {
+   "id": 48,
+   "assetId": 48,
+   "roomId": 8,
+   "date": "2025-06-05",
+   "reason": "Поступление"
+  },
+  {
+   "id": 49,
+   "assetId": 49,
+   "roomId": 9,
+   "date": "2025-12-21",
+   "reason": "Поступление"
+  },
+  {
+   "id": 50,
+   "assetId": 50,
+   "roomId": 9,
+   "date": "2025-04-27",
+   "reason": "Поступление"
+  },
+  {
+   "id": 51,
+   "assetId": 51,
+   "roomId": 9,
+   "date": "2025-09-08",
+   "reason": "Поступление"
+  },
+  {
+   "id": 52,
+   "assetId": 52,
+   "roomId": 9,
+   "date": "2025-01-24",
+   "reason": "Поступление"
+  },
+  {
+   "id": 53,
+   "assetId": 53,
+   "roomId": 9,
+   "date": "2025-09-05",
+   "reason": "Поступление"
+  },
+  {
+   "id": 54,
+   "assetId": 54,
+   "roomId": 9,
+   "date": "2025-03-20",
+   "reason": "Поступление"
+  },
+  {
+   "id": 55,
+   "assetId": 55,
+   "roomId": 10,
+   "date": "2025-08-20",
+   "reason": "Поступление"
+  },
+  {
+   "id": 56,
+   "assetId": 56,
+   "roomId": 10,
+   "date": "2025-09-17",
+   "reason": "Поступление"
+  },
+  {
+   "id": 57,
+   "assetId": 57,
+   "roomId": 10,
+   "date": "2025-05-02",
+   "reason": "Поступление"
+  },
+  {
+   "id": 58,
+   "assetId": 58,
+   "roomId": 10,
+   "date": "2025-02-15",
+   "reason": "Поступление"
+  },
+  {
+   "id": 59,
+   "assetId": 59,
+   "roomId": 10,
+   "date": "2025-08-17",
+   "reason": "Поступление"
+  },
+  {
+   "id": 60,
+   "assetId": 60,
+   "roomId": 10,
+   "date": "2025-05-18",
+   "reason": "Поступление"
+  },
+  {
+   "id": 61,
+   "assetId": 61,
+   "roomId": 11,
+   "date": "2025-07-15",
+   "reason": "Поступление"
+  },
+  {
+   "id": 62,
+   "assetId": 62,
+   "roomId": 11,
+   "date": "2025-04-22",
+   "reason": "Поступление"
+  },
+  {
+   "id": 63,
+   "assetId": 63,
+   "roomId": 11,
+   "date": "2025-11-22",
+   "reason": "Поступление"
+  },
+  {
+   "id": 64,
+   "assetId": 64,
+   "roomId": 11,
+   "date": "2025-08-08",
+   "reason": "Поступление"
+  },
+  {
+   "id": 65,
+   "assetId": 65,
+   "roomId": 11,
+   "date": "2025-11-27",
+   "reason": "Поступление"
+  },
+  {
+   "id": 66,
+   "assetId": 66,
+   "roomId": 11,
+   "date": "2025-07-11",
+   "reason": "Поступление"
+  },
+  {
+   "id": 67,
+   "assetId": 67,
+   "roomId": 12,
+   "date": "2025-06-03",
+   "reason": "Поступление"
+  },
+  {
+   "id": 68,
+   "assetId": 68,
+   "roomId": 12,
+   "date": "2025-09-15",
+   "reason": "Поступление"
+  },
+  {
+   "id": 69,
+   "assetId": 69,
+   "roomId": 12,
+   "date": "2025-07-11",
+   "reason": "Поступление"
+  },
+  {
+   "id": 70,
+   "assetId": 70,
+   "roomId": 12,
+   "date": "2025-02-26",
+   "reason": "Поступление"
+  },
+  {
+   "id": 71,
+   "assetId": 71,
+   "roomId": 12,
+   "date": "2025-05-09",
+   "reason": "Поступление"
+  },
+  {
+   "id": 72,
+   "assetId": 72,
+   "roomId": 12,
+   "date": "2025-03-27",
+   "reason": "Поступление"
+  }
+ ],
+ "repairs": [
+  {
+   "id": 1,
+   "assetId": 18,
+   "description": "Не включается, требуется диагностика",
+   "priority": "высокий",
+   "status": "в работе",
+   "createdBy": "Асема",
+   "date": "2026-11-18"
+  },
+  {
+   "id": 2,
+   "assetId": 63,
+   "description": "Не включается, требуется диагностика",
+   "priority": "средний",
+   "status": "в работе",
+   "createdBy": "Асема",
+   "date": "2026-11-18"
+  },
+  {
+   "id": 3,
+   "assetId": 64,
+   "description": "Не включается, требуется диагностика",
+   "priority": "высокий",
+   "status": "принята",
+   "createdBy": "Асема",
+   "date": "2026-11-18"
+  }
+ ]
+}
